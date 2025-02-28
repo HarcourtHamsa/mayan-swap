@@ -1,0 +1,45 @@
+.wallet-adapter-modal-button-close {
+    background: transparent !important;
+    padding: 5px !important;
+    top: 15px !important
+}
+
+.wallet-adapter-modal-button-close svg {
+    fill: #fff !important
+}
+
+.wallet-adapter-modal-wrapper {
+    background: #2b2e3c !important;
+    padding: 16px 24px 8px !important;
+    font-family: Inter !important
+}
+
+.wallet-adapter-modal-title {
+    visibility: hidden !important;
+    padding: 0 !important;
+    text-align: left !important;
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    line-height: 30px !important
+}
+
+.wallet-adapter-modal-title:before {
+    visibility: visible !important;
+    content: "Select a Solana Wallet"
+}
+
+.wallet-adapter-button {
+    padding: 0 16px !important;
+    min-height: 72px !important;
+    border: 1px solid #4F5E6B !important;
+    margin-bottom: 8px !important;
+    border-radius: 12px !important
+}
+
+.wallet-adapter-modal {
+    z-index: 5000 !important
+}
+
+.notistack-Snackbar.belowHeader {
+    top: 70px
+}
